@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body class="text-center">
+    <div class='nav-overlay'>
+    <nav class="navbar">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Guess The Number</a>
+    </nav>
+    </div>
+    <main class="wrapper">
+        <div class= "d-flex justify-content-center">
+            <h1 class="banner">1.2.3.</h1>
+        </div>
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder="What's your guess?">
+        </div>
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+        <button type="button" id="number-submit" class="btn btn-outline-primary btn-lg m-3">Check Me</button>
+        <button type="button" id="restart-game" class="btn btn-outline-danger btn-lg m-3">Restart</button>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </main>
+</body>
+</html>
